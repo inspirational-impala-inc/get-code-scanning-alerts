@@ -1,0 +1,16 @@
+{
+  "name": "get-alerts",
+  "version": "1.0.0",
+  "description": "A script to retrieve code scanning alerts from a GitHub organization and write them to a CSV file.",
+  "main": "getAlerts.js",
+  "scripts": {
+    "start": "node getAlerts.js"
+  },
+  "type": "module",
+  "author": "Lessley Dennington",
+  "license": "MIT",
+  "dependencies": {
+    "@json2csv/plainjs": "^7.0.6",
+    "@octokit/rest": "^18.0.0"
+  }
+}
